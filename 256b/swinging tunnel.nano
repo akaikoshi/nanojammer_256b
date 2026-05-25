@@ -1,0 +1,9 @@
+﻿#nanojam wt
+f=τ/10
+for y<64
+ for x<64
+  i=x-32;j=y-32;d=sqrt(i*i+j*j)
+  u=20f+1000/d
+  v=32(atan(i,j)+6)+f+.6sin(.5f)*d
+  c=(u∪v)%16
+  pset(x,y,hsv(0,0,c/12))
