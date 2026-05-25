@@ -1,6 +1,0 @@
-#nanojam BBQ
-f=τ/9;text(["TO SHUT UP A NAZI","STICK A VERY BIG","SAUSAGE IN HIS...","F#C*ING MOUTH !!!"][⌊f/32%4⌋],32,2,8)
-for y<47
- for x<64
-  pset(x,y+10,pget(x/2-64+4(f%32),(y*|sin f|)/5)?8+(y/8+ξ):(x/8⊕(y+8f)/8)∩1?5:2ξ)
-rect(0,0,63,4,3)
