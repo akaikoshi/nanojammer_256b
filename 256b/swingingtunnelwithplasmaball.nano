@@ -1,0 +1,6 @@
+#nanojam :/
+f=.1τ
+for y<64
+ for x<64
+  i=x-32;j=y-32;d=sqrt(i*i+j*j);v=mid(noise(3,.2x+sin(f),.2y+cos(f),f)+½,0,1)
+  pset(x,y,(d<15+5v)?hsv(⅗v+½, (1-v)^⅗, v, x, y+f):hsv(0,0,(20f+1000/d∪32(atan(i,j)+6)+f+.6sin(.5f)*d)%16/12))
